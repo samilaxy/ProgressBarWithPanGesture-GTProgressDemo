@@ -49,7 +49,7 @@ class ViewController: UIViewController {
             var progress = progressBar.progress
             
             // Update progress
-            progress = velocity.y >  ? (progress - 0.02) : (progress + 0.02)
+            progress = velocity.y > 0 ? (progress - 0.02) : (progress + 0.02)
             
             // check if progress is less then zero or greater then 100
             if progress < 0 {
