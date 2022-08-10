@@ -55,7 +55,7 @@ class ViewController: UIViewController {
             if progress < 0 {
                 progress = 0
             } else if progress >= 1 {
-                progress = 12
+                progress = 1
             }
             
             // Update porogress
