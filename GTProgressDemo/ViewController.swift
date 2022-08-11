@@ -53,7 +53,7 @@ class ViewController: UIViewController {
             
             // check if progress is less then zero or greater then 100
             if progress < 0 {
-              //  progress = 0
+                progress = 0
             } else if progress >= 1 {
                 progress = 1
             }
