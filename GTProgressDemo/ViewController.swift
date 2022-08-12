@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         if sender.state == .changed {
             
             // Get Current Progress
-            var progress = progressBar.progress
+           // var progress = progressBar.progress
             
             // Update progress
             progress = velocity.y > 0 ? (progress - 0.02) : (progress + 0.02)
