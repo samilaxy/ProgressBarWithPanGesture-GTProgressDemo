@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         // self.view.addGestureRecognizer(panGesture)
         
         //  if you want to add gesture to progress view
-       // self.progressBar.addGestureRecognizer(panGesture)
+        self.progressBar.addGestureRecognizer(panGesture)
     }
     
     // MARK: - IBActions
