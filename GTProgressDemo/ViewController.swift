@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     // MARK: - IBOutlets
     @IBOutlet weak var progressBar: GTProgressBar!
-  //  @IBOutlet weak var progressLabel: UILabel!
+    @IBOutlet weak var progressLabel: UILabel!
     
     // MARK: - Variables
     
